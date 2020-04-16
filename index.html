@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]>
+<html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]>
+<html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en"
+      dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]>
+<html class="no-js ie lt-ie9 lt-ie8" lang="en"
+      dir="ltr"><![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie lt-ie9" lang="en"
+      dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]>
+<html class="no-js ie" lang="en"
+      dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><![endif]-->
+<!--[if !IE]><!-->
+<html class="no-js" lang="en"
+      dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+<link rel="icon" type="image/png" sizes="192x192" href="http://deweb.com.ua/sites/all/themes/deweb/favicons/android-chrome-192x192.png" />
+<link rel="shortcut icon" href="http://deweb.com.ua/sites/all/themes/deweb/favicons/favicon.ico" />
+<link rel="manifest" href="http://deweb.com.ua/sites/all/themes/deweb/favicons/manifest.json" />
+<meta name="msapplication-TileColor" content="#333233" />
+<link rel="mask-icon" href="http://deweb.com.ua/sites/all/themes/deweb/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+<meta name="msapplication-TileImage" content="http://deweb.com.ua/sites/all/themes/deweb/favicons/mstile-144x144.png" />
+<meta name="apple-mobile-web-app-title" content="DeWeb" />
+<meta name="application-name" content="DeWeb" />
+<meta name="theme-color" content="#333233" />
+<meta name="msapplication-config" content="http://deweb.com.ua/sites/all/themes/deweb/favicons/browserconfig.xml" />
+<link rel="icon" type="image/png" sizes="16x16" href="http://deweb.com.ua/sites/all/themes/deweb/favicons/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="194x194" href="http://deweb.com.ua/sites/all/themes/deweb/favicons/favicon-194x194.png" />
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<link rel="shortcut icon" href="http://deweb.com.ua/sites/all/themes/deweb/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" title="deweb.com.ua RSS" href="http://deweb.com.ua/rss.xml" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="width" />
+<link rel="apple-touch-icon" sizes="180x180" href="http://deweb.com.ua/sites/all/themes/deweb/favicons/apple-touch-icon.png" />
+<meta http-equiv="cleartype" content="on" />
+<link rel="icon" type="image/png" sizes="32x32" href="http://deweb.com.ua/sites/all/themes/deweb/favicons/favicon-32x32.png" />
+<meta name="viewport" content="width=device-width" />
+  <title>deweb.com.ua</title>
+  <style>
+@import url("http://deweb.com.ua/sites/all/themes/omega/omega/css/modules/system/system.base.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/omega/omega/css/modules/system/system.theme.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/modules/contrib/date/date_api/date.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?oso04f");
+@import url("http://deweb.com.ua/modules/node/node.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/modules/contrib/picture/picture_wysiwyg.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/omega/omega/css/modules/field/field.theme.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/modules/contrib/views/css/views.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/omega/omega/css/modules/search/search.theme.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/omega/omega/css/modules/user/user.base.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/omega/omega/css/modules/user/user.theme.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/modules/contrib/ckeditor/css/ckeditor.css?oso04f");
+</style>
+<style media="screen">
+@import url("http://deweb.com.ua/sites/all/modules/contrib/views_slideshow/views_slideshow.css?oso04f");
+</style>
+<style>
+@import url("http://deweb.com.ua/sites/all/modules/contrib/ctools/css/ctools.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/modules/contrib/views_slideshow/views_slideshow_controls_text.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/modules/contrib/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?oso04f");
+@import url("http://deweb.com.ua/sites/default/files/honeypot/honeypot.css?oso04f");
+</style>
+<style>
+@import url("http://deweb.com.ua/sites/all/themes/deweb/css/_header.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/deweb/css/deweb.reset.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/deweb/css/deweb.styles.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/deweb/css/portfolio.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/deweb/css/common-styles.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/deweb/css/contact-us-form.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/deweb/css/basic_page.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/deweb/css/_blog.css?oso04f");
+@import url("http://deweb.com.ua/sites/all/themes/deweb/css/jquery.fullPage.css?oso04f");
+</style>
+  <script src="http://deweb.com.ua/sites/all/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js?v=1.7.2"></script>
+<script src="http://deweb.com.ua/misc/jquery.once.js?v=1.2"></script>
+<script src="http://deweb.com.ua/misc/drupal.js?oso04f"></script>
+<script src="http://deweb.com.ua/sites/all/themes/omega/omega/js/no-js.js?oso04f"></script>
+<script src="http://deweb.com.ua/sites/all/modules/contrib/views_slideshow/js/views_slideshow.js?v=1.0"></script>
+<script src="http://deweb.com.ua/sites/all/modules/contrib/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script src="http://deweb.com.ua/sites/all/modules/contrib/jquery_update/replace/jquery.form/3/jquery.form.min.js?v=3.51.0"></script>
+<script src="http://deweb.com.ua/misc/ajax.js?v=7.50"></script>
+<script src="http://deweb.com.ua/sites/all/modules/contrib/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script>document.createElement( "picture" );</script>
+<script src="http://deweb.com.ua/sites/all/libraries/jquery.cycle/jquery.cycle.all.min.js?oso04f"></script>
+<script src="http://deweb.com.ua/sites/all/modules/contrib/views_slideshow/contrib/views_slideshow_cycle/js/views_slideshow_cycle.js?oso04f"></script>
+<script src="http://deweb.com.ua/sites/all/modules/contrib/google_analytics/googleanalytics.js?oso04f"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-24720325-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="http://deweb.com.ua/sites/all/modules/contrib/ajax_form_entity/ajax_form_entity.js?oso04f"></script>
+<script src="http://deweb.com.ua/misc/progress.js?v=7.50"></script>
+<script src="http://deweb.com.ua/sites/all/themes/deweb/js/front.behaviors.js?oso04f"></script>
+<script src="http://deweb.com.ua/sites/all/themes/deweb/js/modernizr.js?oso04f"></script>
+<script src="http://deweb.com.ua/sites/all/themes/deweb/js/jquery.vide.js?oso04f"></script>
+<script src="http://deweb.com.ua/sites/all/themes/deweb/js/velocity.min.js?oso04f"></script>
+<script src="http://deweb.com.ua/sites/all/themes/deweb/js/velocity.ui.min.js?oso04f"></script>
+<script src="http://deweb.com.ua/sites/all/themes/deweb/js/jquery.fullPage.min.js?oso04f"></script>
+<script src="http://deweb.com.ua/sites/all/themes/deweb/js/common.behaviors.js?oso04f"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"deweb","theme_token":"V8ZJlUNTabUYg8Ij4w3gOOImivsf31iCGInYMzQ5NTs","jquery_version":"1.7","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery.form\/3\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"0":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.min.js":1,"sites\/all\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/modules\/contrib\/ajax_form_entity\/ajax_form_entity.js":1,"misc\/progress.js":1,"sites\/all\/themes\/deweb\/js\/front.behaviors.js":1,"sites\/all\/themes\/deweb\/js\/modernizr.js":1,"sites\/all\/themes\/deweb\/js\/jquery.vide.js":1,"sites\/all\/themes\/deweb\/js\/velocity.min.js":1,"sites\/all\/themes\/deweb\/js\/velocity.ui.min.js":1,"sites\/all\/themes\/deweb\/js\/jquery.fullPage.min.js":1,"sites\/all\/themes\/deweb\/js\/common.behaviors.js":1,"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/themes\/omega\/omega\/js\/no-js.js":1,"2":1,"3":1},"css":{"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.base.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.menus.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.messages.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.theme.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/field\/field.theme.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/search\/search.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.base.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.theme.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/views_slideshow_controls_text.css":1,"sites\/all\/modules\/contrib\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/default\/files\/honeypot\/honeypot.css":1,"sites\/all\/themes\/deweb\/css\/_header.css":1,"sites\/all\/themes\/deweb\/css\/deweb.reset.css":1,"sites\/all\/themes\/deweb\/css\/deweb.styles.css":1,"sites\/all\/themes\/deweb\/css\/portfolio.css":1,"sites\/all\/themes\/deweb\/css\/common-styles.css":1,"sites\/all\/themes\/deweb\/css\/contact-us-form.css":1,"sites\/all\/themes\/deweb\/css\/basic_page.css":1,"sites\/all\/themes\/deweb\/css\/_blog.css":1,"sites\/all\/themes\/deweb\/css\/jquery.fullPage.css":1}},"viewsSlideshow":{"slider-block":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowControls":{"slider-block":{"top":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowPager":{"slider-block":{"bottom":{"type":"viewsSlideshowPagerFields"}}},"viewsSlideshowPagerFields":{"slider-block":{"bottom":{"activatePauseOnHover":0}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slider-block":{"num_divs":3,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slider-block","effect":"fade","transition_advanced":0,"timeout":5000,"speed":700,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"ajax":{"edit-submit":{"callback":"ajax_form_entity_callback","effect":"fade","event":"mousedown","keypress":true,"prevent":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Submit"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/":true}});</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body class="html front not-logged-in page-node i18n-en">
+<a id="bestcss" href="http://www.bestcss.in/user/detail/DEWEBStudio-3391" style="width:106px;height:92px;position:fixed;top:0px;right:0px;z-index:99999;text-indent:-9999px;background: url(http://www.bestcss.in/ribbons/black-right.png) no-repeat;" target="_blank">Best CSS Web Gallery</a>
+<!--<a href="#main-content" class="element-invisible element-focusable"></a>-->
+<header class="l-header" role="banner">
+  <div class="l-branding logo">
+          <a href="/" title="Home" rel="home" class="site-logo"><img src="http://deweb.com.ua/sites/all/themes/deweb/logo.png" alt="Home" /></a>
+      </div>
+    <div class="l-region l-region--header">
+    <div id="block-locale-language" role="complementary" class="block block--locale nav block--locale-language">
+        <div class="block__content">
+    <ul class="language-switcher-locale-url"><li class="en first active"><a href="/" class="language-link active" xml:lang="en">En</a></li>
+<li class="ru"><a href="/ru" class="language-link" xml:lang="ru">Ru</a></li>
+<li class="uk last"><a href="/ua" class="language-link" xml:lang="uk">Ua</a></li>
+</ul>  </div>
+</div>
+<nav id="block-system-main-menu" role="navigation" class="block block--system block--menu block--system-main-menu">
+      
+  <ul class="menu"><li class="first leaf"><a href="/" title="" class="active">HOME</a></li>
+<li class="leaf"><a href="/portfolio" title="">PORTFOLIO</a></li>
+<li class="leaf"><a href="/blog" title="">BLOG</a></li>
+<li class="leaf"><a href="/vacancies" title="Our vacancies">VACANCIES</a></li>
+<li class="last leaf"><a href="/#contacts" title="" class="active">CONTACTS</a></li>
+</ul></nav>
+  </div>
+  <a href="#0" class="cd-3d-nav-trigger">
+    Menu
+    <span></span>
+  </a>
+</header>
+
+<div id="fullpage">
+  <h1 style="display: none">Deweb Studio</h1>
+  <section class="cd-section visible slider">
+    <div>
+        <div class="l-region l-region--slider">
+    <div id="block-views-slider-block" class="block block--views block--views-slider-block">
+        <div class="block__content">
+    <div class="view view-slider view-id-slider view-display-id-block view-dom-id-747b9369a542b87baba5c01e4324df3b">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+          <div class="views-slideshow-controls-top clearfix">
+        <div id="views_slideshow_controls_text_slider-block" class="views-slideshow-controls-text views_slideshow_controls_text">
+  <span id="views_slideshow_controls_text_previous_slider-block" class="views-slideshow-controls-text-previous views_slideshow_controls_text_previous"><a href="#">Previous</a></span>
+  <span id="views_slideshow_controls_text_pause_slider-block" class="views-slideshow-controls-text-pause views_slideshow_controls_text_pause  views-slideshow-controls-text-status-play"><a href="#">Pause</a></span>
+  <span id="views_slideshow_controls_text_next_slider-block" class="views-slideshow-controls-text-next views_slideshow_controls_text_next"><a href="#">Next</a></span>
+</div>
+      </div>
+    
+    <div id="views_slideshow_cycle_main_slider-block" class="views_slideshow_cycle_main views_slideshow_main"><div id="views_slideshow_cycle_teaser_section_slider-block" class="views-slideshow-cycle-main-frame views_slideshow_cycle_teaser_section">
+  <div id="views_slideshow_cycle_div_slider-block_0" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-1 views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-0 views-row-odd views-row-first">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="slide-wrapper">
+  <div class="slide-image"><picture >
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_tv_1x/public/slide1.jpg?itok=nL5vNlG9&amp;timestamp=1439200669 1x" media="only screen and (min-width: 1281px)" />
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_wide_1x/public/slide1.jpg?itok=xpl6yDAH&amp;timestamp=1439200669 1x" media="(min-width: 993px)" />
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_narrow_1x/public/slide1.jpg?itok=9kzuyFoT&amp;timestamp=1439200669 1x" media="(min-width: 481px)" />
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_mobile_1x/public/slide1.jpg?itok=0RvfbRd-&amp;timestamp=1439200669 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_mobile_1x/public/slide1.jpg?itok=0RvfbRd-&amp;timestamp=1439200669" alt="" title="" />
+</picture></div>
+  <div class="slide-body slide-body-2"><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+@media screen and(max-width: 660px) {
+    .front .slide-body p.hack {
+        padding-top:150px !important;
+    }
+}
+
+/*--><!]]>*/
+</style><p class="hack"><span>We make creative</span><br /><span>web sites with</span><br /><span>strong front-end</span><br /><span>and wise solutions</span><br /><span>on Drupal</span></p>
+</div>
+</div></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slider-block_1" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-1 views-row-even">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="slide-wrapper">
+  <div class="slide-image"><picture >
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_tv_1x/public/01_04-slide_drupal-deweb-1_01_0.jpg?itok=uI9947Ty&amp;timestamp=1441371960 1x" media="only screen and (min-width: 1281px)" />
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_wide_1x/public/01_04-slide_drupal-deweb-1_01_0.jpg?itok=fKLBoCK1&amp;timestamp=1441371960 1x" media="(min-width: 993px)" />
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_narrow_1x/public/01_04-slide_drupal-deweb-1_01_0.jpg?itok=tT1w03GD&amp;timestamp=1441371960 1x" media="(min-width: 481px)" />
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_mobile_1x/public/01_04-slide_drupal-deweb-1_01_0.jpg?itok=1trQKgo1&amp;timestamp=1441371960 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_mobile_1x/public/01_04-slide_drupal-deweb-1_01_0.jpg?itok=1trQKgo1&amp;timestamp=1441371960" alt="" title="" />
+</picture></div>
+  <div class="slide-body slide-body-2"><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+@media screen and(max-width: 660px) {
+    .front .slide-body p.hack {
+        padding-top:150px !important;
+    }
+}
+
+/*--><!]]>*/
+</style><p class="hack">Reliable Drupal Support<br />
+for complicated<br />
+web-sites</p>
+</div>
+</div></span>  </div></div>
+</div>
+<div id="views_slideshow_cycle_div_slider-block_2" class="views-slideshow-cycle-main-frame-row views_slideshow_cycle_slide views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+  <div class="views-slideshow-cycle-main-frame-row-item views-row views-row-2 views-row-odd views-row-last">
+    
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="slide-wrapper">
+  <div class="slide-image"><picture >
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_tv_1x/public/01_03-slide_conference-deweb-1_01.jpg?itok=dDk1Vl--&amp;timestamp=1441372134 1x" media="only screen and (min-width: 1281px)" />
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_wide_1x/public/01_03-slide_conference-deweb-1_01.jpg?itok=ht_djz-u&amp;timestamp=1441372134 1x" media="(min-width: 993px)" />
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_narrow_1x/public/01_03-slide_conference-deweb-1_01.jpg?itok=qiJ9jluj&amp;timestamp=1441372134 1x" media="(min-width: 481px)" />
+<source srcset="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_mobile_1x/public/01_03-slide_conference-deweb-1_01.jpg?itok=RNXnfnFj&amp;timestamp=1441372134 1x" media="(min-width: 0px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  src="http://deweb.com.ua/sites/default/files/styles/rwd_breakpoints_theme_deweb_mobile_1x/public/01_03-slide_conference-deweb-1_01.jpg?itok=RNXnfnFj&amp;timestamp=1441372134" alt="" title="" />
+</picture></div>
+  <div class="slide-body slide-body-2"><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+@media screen and(max-width: 660px) {
+    .front .slide-body p.hack {
+        padding-top:150px !important;
+    }
+}
+
+/*--><!]]>*/
+</style><p class="hack">We are active<br />
+participants and organizers<br />
+of thematic meetings<br />
+and conferences</p>
+</div>
+</div></span>  </div></div>
+</div>
+</div>
+</div>
+          <div class="views-slideshow-controls-bottom clearfix">
+        <div id="widget_pager_bottom_slider-block" class="views-slideshow-pager-fields widget_pager widget_pager_bottom views_slideshow_pager_field">
+  <div id="views_slideshow_pager_field_item_bottom_slider-block_0" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd views-row-first">
+  <div class="views-field-counter">
+    <div class="views-content-counter">
+    <a href="#Slide">1</a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_slider-block_1" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-even">
+  <div class="views-field-counter">
+    <div class="views-content-counter">
+    <a href="#Slide">2</a>  </div>
+</div>
+</div>
+<div id="views_slideshow_pager_field_item_bottom_slider-block_2" class="views-slideshow-pager-field-item views_slideshow_pager_field_item views-row-odd views-row-last">
+  <div class="views-field-counter">
+    <div class="views-content-counter">
+    <a href="#Slide">3</a>  </div>
+</div>
+</div>
+</div>
+      </div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+
+        <!-- -->
+      <!-- -->                                                                           <!-- -->
+
+    </div>
+  </section>
+
+  <section class="cd-section who-we-are">
+    <div>
+          <div class="bg">
+
+          </div>
+          <div id="block2" style="width: 100%; height: 900px;"
+               data-vide-bg= mp4:sites/all/themes/deweb/video/video1.mp4,webm:sites/all/themes/deweb/video/video1.webm,ogv:sites/all/themes/deweb/video/video1.ogv,poster:sites/all/themes/deweb/video/photo1.jpg               data-vide-options="position: 0% 50%">
+          </div>
+    </div>
+    <div class="center-content" >
+      <div id="block-block-2" class="block block--block block--block-2">
+        <div class="block__content">
+    <div class="main-grid-1-3">
+<div class="who-are">
+<h3 class="who-are--title">
+    <span class="who-are--title__after">Who </span> <br /><span class="who-are--title__before">we are</span><br /></h3>
+</div>
+</div>
+<div class="main-grid-2-3">
+<div class="who-we-are--text">
+<p>DeWeb is a <strong>Ukraine-based</strong> design and frontend Drupal web­studio. The main approach in studio’s work is to consider carefully the specifics of every project and to find instruments that would help to achieve customer's’ objectives.
+      </p>
+<p>We use <strong>CMS/CMF Drupal </strong> in projects and we understand the whole value of Drupal being an open­source software and the importance of Drupal community. That’s why <strong>deWeb</strong> invests into community’s development by participating, reporting, sponsorship and help in organisation of Drupal­camps and arrangements.</p>
+</div>
+</div>
+  </div>
+</div>
+    </div>
+  </section>
+
+  <section class="cd-section we-are">
+    <div style="background-color: #202030; height: 100%">
+<div class="desktop">
+<div class="col-3">
+<div class="col-2">
+<div class="photo-1">
+<p>We will teach you how to increase efficiency and optimize business processes in your company’s online activities. We provide consulting on management, marketing and IT issues.</p>
+</div>
+</div>
+<div class="col-2">
+<div class="photo-2">
+<p>Our front-end developers know how to mock-up the most complicated layouts and make websites look great using best techniques and animated effects.</p>
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-1">
+<div class="photo">
+<h3>we<br />
+are<br />
+per-<br />
+fect<br />
+in</h3>
+<div class="our-advantages">
+<ul><li class="consulting">
+<p><span>Consulting</span></p>
+</li>
+<li class="design">
+<p><span>Design</span></p>
+</li>
+<li class="frontend">
+<p><span>Frontend</span></p>
+</li>
+<li class="drupal">
+<p><span>Drupal</span></p>
+</li>
+</ul></div>
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-2">
+<div class="photo-3">
+<p>We understand the importance of visual perception of a brand. We begin elaboration of the design with a deep analysis of every customer’s business goals and tasks thus determining the stylistics and structure.</p>
+</div>
+</div>
+<div class="col-2">
+<div class="photo-4">
+<p>We focus our attention on using CMS/CMF Drupal in our projects. Any website - from a small promo site to a massive web­portal or e-commerce shop can be created using Drupal CMS. It allows to implement a thoroughly considered business logic.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mobile">
+<h3>we<br />
+are<br />
+per-<br />
+fect<br />
+in</h3>
+<h4>we are perfect in</h4>
+<div class="col-4">
+<div class="about--title">
+<h4 class="consulting">Consulting</h4>
+</div>
+<div class="photo-1 consulting">
+<p>We will teach you how to increase efficiency and optimize business processes in your company’s online activities. We provide consulting on management, marketing and IT issues.</p>
+</div>
+</div>
+<div class="col-4">
+<div class="about--title">
+<h4 class="design">Design</h4>
+</div>
+<div class="photo-3 design">
+<p>We understand the importance of visual perception of a brand. We begin elaboration of the design with a deep analysis of every customer’s business goals and tasks thus determining the stylistics and structure.</p>
+</div>
+</div>
+<div class="col-4">
+<div class="about--title">
+<h4 class="frontend">Frontend</h4>
+</div>
+<div class="photo-2 frontend">
+<p>Our front-end developers know how to mock-up the most complicated layouts and make websites look great using best techniques and animated effects.</p>
+</div>
+</div>
+<div class="col-4">
+<div class="about--title">
+<h4 class="drupal">Drupal</h4>
+</div>
+<div class="photo-4 drupal">
+<p>We focus our attention on using CMS/CMF Drupal in our projects. Any website - from a small promo site to a massive web­portal or e-commerce shop can be created using Drupal CMS. It allows to implement a thoroughly considered business logic.</p>
+</div>
+</div>
+</div>
+</div>
+  </section>
+
+  <section class="cd-section our-works">
+    <div>
+      <div class="bg"></div>
+      <div id="block2" style="width: 100%; height: 900px;"
+           data-vide-bg= mp4:sites/all/themes/deweb/video/video2.mp4,webm:sites/all/themes/dewebvideo2.webm,ogv:sites/all/themes/dewebvideo2.ogv,poster:sites/all/themes/deweb/video/photo2.jpg           data-vide-options="position: 0% 50%">
+      </div>
+    </div>
+    <div class="absolute">
+      <div class="center-content">
+        <div id="block-block-4" class="block block--block block--block-4">
+        <div class="block__content">
+    <div class="view-id-portfolio">
+<div class="view-header main-grid-1-3 ">
+<div class="who-are">
+<h3 class="who-are--title"><span class="who-are--title__after">Our</span><br /><span class="who-are--title__before">works</span></h3>
+<p><a href="/portfolio">view all</a></p></div>
+</div>
+<div class="view-content main-grid-2-3 ">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-nothing">
+<div class="portfolio-prew" style="background-image: url(http://demo.deweb.com.ua/deweb/portfolio_img/blueplanet_0.jpg);">
+<div class="portfolio-info">
+<h4>Blue Planet Distribution and Kite Beach</h4>
+<p><a href="http://blueplanet.az/" target="_blank" title="Blue Planet Distribution and Kite Beach">go to the site</a></p></div>
+</div>
+</div>
+</div>
+<div class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-nothing">
+<div class="portfolio-prew" style="background-image: url(http://demo.deweb.com.ua/deweb/portfolio_img/aaamc_main_0.jpg);">
+<div class="portfolio-info">
+<h4>Azerbaijan Aesthetic &amp; Anti-Age Medicine Congress</h4>
+<p><a href="http://aaamc.az/2015" target="_blank">go to the site</a></p></div>
+</div>
+</div>
+</div>
+<div class="views-row views-row-3 views-row-odd views-row-first">
+<div class="views-field views-field-nothing">
+<div class="portfolio-prew" style="background-image: url(http://demo.deweb.com.ua/deweb/portfolio_img/kofemarket.jpg);">
+<div class="portfolio-info">
+<h4>Kofemarket”</h4>
+<p><a href="http://kofemarket.com.ua/" target="_blank">go to the site</a></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cd-section blog">
+    <div>
+      <div id="block-views-blog-block" class="block block--views block--views-blog-block">
+        <div class="block__content">
+    <div class="view view-blog view-id-blog view-display-id-block view-dom-id-8c7cbdbaa5ce373ef2342419f374439f">
+        
+  
+  
+      <div class="view-content">
+      <div class="views-row views-row-0">
+  <a href="http://deweb.com.ua/blog" class="cover-link"></a>
+  <div class="who-are-wrapper"><div class="who-are">
+    <h3 class="who-are--title"><span class="who-are--title__after">Read</span><br>
+      <span class="who-are--title__before">our blog</span></h3>
+    <a href="http://deweb.com.ua/blog">go to blog</a>
+  </div></div>
+</div>
+  <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+          <article class="blog-teaser">
+  <a href="/blog/drupal-8-twig-helper-modules-igor-karpylenko">
+    <h2>Drupal 8 Twig helper modules. Igor Karpylenko</h2>
+    <div class="blog-date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-04-13T00:00:00+03:00">13.04.2017</span></div>
+  </a>
+</article>    </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+          <article class="blog-teaser">
+  <a href="/blog/basics-linux-administration-yuriy-mudryi">
+    <h2>The basics of Linux administration. Yuriy Mudryi</h2>
+    <div class="blog-date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-04-06T00:00:00+03:00">06.04.2017</span></div>
+  </a>
+</article>    </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+          <article class="blog-teaser">
+  <a href="/blog/git-working-commits-oksana-boyarko">
+    <h2>GIT: working with commits. Oksana Boyarko</h2>
+    <div class="blog-date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-03-30T00:00:00+03:00">30.03.2017</span></div>
+  </a>
+</article>    </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+          <article class="blog-teaser">
+  <a href="/blog/webform">
+    <h2>Webform. Sergey Shumskiy</h2>
+    <div class="blog-date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-03-28T00:00:00+03:00">28.03.2017</span></div>
+  </a>
+</article>    </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+          <article class="blog-teaser">
+  <a href="/blog/Kyiv_Drupal_global_training_day">
+    <h2>Kyiv Drupal Global Training Day on March 18, 2017</h2>
+    <div class="blog-date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-03-20T00:00:00+02:00">20.03.2017</span></div>
+  </a>
+</article>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+    </div>
+  </section>
+
+  <section class="cd-section our-awesome-team">
+    <div class="our-team-wrapper clearfix">
+      <div class="main-grid-1-3">
+        <div class="table-wrapper">
+          <div class="who-are-wrapper-top">
+            <div class="who-are">
+              <h3 class="who-are--title"><span class="who-are--title__after">Awesome </span><br>
+                <span class="who-are--title__before">studio team</span></h3>
+              <p><a href="https://www.facebook.com/deWeb.com.ua/?fref=ts" target="_blank">Our facebook page</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="table-wrapper">
+          <div class="who-are-wrapper-bottom">
+            <div class="who-are">
+              <h3 class="who-are--title"><span class="who-are--title__after">We are</span><br>
+                <span class="who-are--title__before">hiring</span></h3>
+              <p><a href="/">Vacancies</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-grid-2-3">
+        <div class="our-team-photo"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cd-section footer">
+    <div class="inner">
+              <div class="feedback-form"><h2>Contact us</h2><div id="form-message-wrapper-form-AJZaAJaWfHWxMUxg_NAVR11RFN8wTt273P9gDd9p6UE"><div></div></div><div id="preview-wrapper-top-form-AJZaAJaWfHWxMUxg_NAVR11RFN8wTt273P9gDd9p6UE"></div><div id="form-reload-form-AJZaAJaWfHWxMUxg_NAVR11RFN8wTt273P9gDd9p6UE"><form class="feedback-form-entityform-edit-form entityform entitytype-feedback_form-form" action="/" method="post" id="feedback-form-entityform-edit-form" accept-charset="UTF-8"><div><div class='pre-instructions' ></div><input type="hidden" name="form_build_id" value="form-AJZaAJaWfHWxMUxg_NAVR11RFN8wTt273P9gDd9p6UE" />
+<input type="hidden" name="form_id" value="feedback_form_entityform_edit_form" />
+<input type="hidden" name="honeypot_time" value="1587073023|B_GLvP8eaQ6Pj9vBhrJyGKuK_rqhT_V8YghZuCB4-H0" />
+<div class="field-type-text field-name-field-name field-widget-text-textfield form-wrapper" id="edit-field-name"><div id="field-name-add-more-wrapper"><div class="form-item form-type-textfield form-item-field-name-und-0-value">
+  <label class="element-invisible" for="edit-field-name-und-0-value">Your name <span class="form-required" title="This field is required.">*</span></label>
+ <input class="text-full form-text required" placeholder="Your name" type="text" id="edit-field-name-und-0-value" name="field_name[und][0][value]" value="" size="60" maxlength="60" />
+</div>
+</div></div><div class="field-type-text field-name-field-e-mail field-widget-text-textfield form-wrapper" id="edit-field-e-mail"><div id="field-e-mail-add-more-wrapper"><div class="form-item form-type-textfield form-item-field-e-mail-und-0-value">
+  <label class="element-invisible" for="edit-field-e-mail-und-0-value">e-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input class="text-full form-text required" placeholder="e-mail" type="text" id="edit-field-e-mail-und-0-value" name="field_e_mail[und][0][value]" value="" size="60" maxlength="100" />
+</div>
+</div></div><div class="field-type-text-long field-name-field-message field-widget-text-textarea form-wrapper" id="edit-field-message"><div id="field-message-add-more-wrapper"><div class="form-item form-type-textarea form-item-field-message-und-0-value">
+  <label class="element-invisible" for="edit-field-message-und-0-value">Your message <span class="form-required" title="This field is required.">*</span></label>
+ <div class="form-textarea-wrapper"><textarea class="text-full form-textarea required" placeholder="Your message" id="edit-field-message-und-0-value" name="field_message[und][0][value]" cols="60" rows="5"></textarea></div>
+</div>
+</div></div><div class="age-textfield"><div class="form-item form-type-textfield form-item-age">
+  <label for="edit-age">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-age" name="age" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div><div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Submit" class="form-submit" /></div></div></form></div><div id="preview-wrapper-bottom-form-AJZaAJaWfHWxMUxg_NAVR11RFN8wTt273P9gDd9p6UE"></div></div>
+              <div class="l-region l-region--footer">
+    <div id="block-block-1" class="block block--block block--block-1">
+        <div class="block__content">
+    <div class="footer-bottom">
+<div class="contacts-block vcard" id="contacts-block"><span class="tel">+380 93 637 53 32</span><a class="email" href="mailto:info@deweb.com.ua">info@deweb.com.ua</a></div>
+<div class="social-block"><a class="sb-fb" href="https://www.facebook.com/deWeb.com.ua" target="_blank"> </a> <a class="sb-drup" href="http://www.drupal.org/deweb-studio" target="_blank"> </a> <a class="sb-beh" href="https://www.behance.net/deweb" target="_blank"> </a></div>
+<div class="footer-logo-block"><span class="logo-sm"> </span>
+<p>since 2009</p>
+</div>
+</div>
+  </div>
+</div>
+  </div>
+    </div>
+  </section>
+</div>
+
+<!-- Microdata -->
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "WebSite",
+  "name" : "<Deweb Studio>",
+  "url" : "<http://deweb.com.ua/>"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Deweb Studio",
+  "url": "http://deweb.com.ua/",
+  "logo": "http://deweb.com.ua/sites/all/themes/deweb/logo.png",
+  "description": "DeWeb is an ukrainian design and frontend-specializing Drupal oriented web­studio. The main approach in studio’s work is to consider carefully the specific of every project and to find instruments that would help to solve client’s objectives.",
+  "email": "info@deweb.com.ua",
+  "address": [
+  {
+    "@type" : "PostalAddress",
+    "addressLocality" : "Kiev",
+    "streetAddress" : "126 Velyka Vasylkivska St.",
+    "postalCode" : "03150",
+    "telephone" : "+380 66 146 70 27"
+  }]
+}
+</script>
+<script src="http://deweb.com.ua/sites/all/modules/contrib/picture/picturefill2/picturefill.min.js?v=2.3.1"></script>
+<script src="http://deweb.com.ua/sites/all/modules/contrib/picture/picture.min.js?v=7.50"></script>
+</body>
+</html>
