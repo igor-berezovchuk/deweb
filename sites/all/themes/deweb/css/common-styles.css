@@ -1,0 +1,37 @@
+.Open-Sans-Condensed {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+.header-font, h1, h2, h3 {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: white; }
+  a:focus, a:active, a:visited {
+    color: inherit; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+body.admin-menu {
+  margin-top: 35px !important; }
+
+h1 {
+  text-align: center; }
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 25px; }
+
+@media only screen and (max-width: 992px) {
+  body {
+    font-size: 16px; } }
+
+/*# sourceMappingURL=common-styles.css.map */

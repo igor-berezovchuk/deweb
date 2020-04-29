@@ -1,0 +1,281 @@
+.pager {
+  background: rgba(6, 73, 84, 0.8);
+  padding: 18px 0;
+  border-bottom: 1px solid #9090A7;
+  border-top: 1px solid #9090A7;
+  position: relative;
+  top: -1px;
+  margin: 0;
+  font-size: 18px; }
+  .pager .pager__item a {
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase; }
+    .pager .pager__item a:hover {
+      color: #15b0a9; }
+  .pager .pager__item--first,
+  .pager .pager__item--last {
+    display: none; }
+  .pager .pager__item--current {
+    color: #15b0a9; }
+  .pager .pager__item--next {
+    margin-left: 5%; }
+  .pager .pager__item--previous {
+    margin-right: 5%; }
+
+@media only screen and (max-width: 992px) {
+  .pager {
+    font-size: 16px; } }
+.animated {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -6px, 0);
+    transform: translate3d(0, -6px, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -6px, 0);
+    transform: translate3d(0, -6px, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown; }
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; }
+
+.header-font, .page-portfolio .view-content .views-row .node--portfolio--teaser .article-text a.project-link {
+  font-family: 'Open Sans Condensed', sans-serif; }
+
+.page-portfolio {
+  /***********      MEDIA     ***********/ }
+  .page-portfolio .cover-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    border-bottom: 1px solid #4c4c5d;
+    border-right: 1px solid #4c4c5d; }
+  .page-portfolio h1 {
+    text-align: center;
+    font-size: 54px; }
+  .page-portfolio .view-content {
+    background: #fff;
+    border-top: 1px solid #9090A7; }
+    .page-portfolio .view-content .views-row {
+      position: relative; }
+      .page-portfolio .view-content .views-row .node--portfolio--teaser {
+        width: 50%;
+        float: left;
+        height: 450px;
+        color: #fff;
+        position: relative;
+        display: block;
+        background-size: cover !important;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser > .content {
+          display: table;
+          vertical-align: middle;
+          height: 100%;
+          width: 100%; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser .field--type-jquery-colorpicker .jquery_colorpicker_color_display {
+          opacity: .85;
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 10; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser .field--name-field-portfolio-logo {
+          display: table-cell;
+          vertical-align: middle;
+          height: 100%;
+          text-align: center;
+          -webkit-transition: opacity 0.8s ease;
+          -moz-transition: opacity 0.8s ease;
+          -o-transition: opacity 0.8s ease;
+          transition: opacity 0.8s ease; }
+          .page-portfolio .view-content .views-row .node--portfolio--teaser .field--name-field-portfolio-logo img {
+            height: auto;
+            max-width: 90%; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser .article-img {
+          height: 100%;
+          display: table-cell;
+          vertical-align: middle;
+          width: 50%;
+          text-align: center;
+          -webkit-transition: opacity 0.5s ease;
+          -moz-transition: opacity 0.5s ease;
+          -o-transition: opacity 0.5s ease;
+          transition: opacity 0.5s ease; }
+          .page-portfolio .view-content .views-row .node--portfolio--teaser .article-img img {
+            max-width: 100%;
+            height: auto; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser .field--name-field-portfolio-description {
+          font-size: 18px;
+          line-height: 28px;
+          margin-bottom: 50px; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser .hovered {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          -webkit-transition: opacity 0.5s ease;
+          -moz-transition: opacity 0.5s ease;
+          -o-transition: opacity 0.5s ease;
+          transition: opacity 0.5s ease; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser:hover .hovered {
+          opacity: 1;
+          -webkit-transition: opacity 0.5s ease;
+          -moz-transition: opacity 0.5s ease;
+          -o-transition: opacity 0.5s ease;
+          transition: opacity 0.5s ease; }
+          .page-portfolio .view-content .views-row .node--portfolio--teaser:hover .hovered .article-text .node__title, .page-portfolio .view-content .views-row .node--portfolio--teaser:hover .hovered .article-text .field--name-field-portfolio-description {
+            -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-name: fadeInDown;
+            animation-name: fadeInDown; }
+          .page-portfolio .view-content .views-row .node--portfolio--teaser:hover .hovered .article-text .project-link {
+            -webkit-animation-duration: .5s;
+            animation-duration: .5s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-name: fadeInUp;
+            animation-name: fadeInUp; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser:hover .article-img {
+          opacity: 0; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser:hover .field--name-field-portfolio-logo {
+          opacity: 0; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser.featured {
+          width: 100%;
+          float: left; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser .article-text {
+          padding: 100px 0 0;
+          margin: 0 auto;
+          text-align: center;
+          z-index: 11;
+          position: relative;
+          height: 100%;
+          width: 90%;
+          max-width: 600px; }
+          .page-portfolio .view-content .views-row .node--portfolio--teaser .article-text .node__title {
+            font-size: 24px;
+            line-height: 32px; }
+          .page-portfolio .view-content .views-row .node--portfolio--teaser .article-text a.project-link {
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            font-size: 16px;
+            font-weight: bold;
+            color: #40e3dc;
+            line-height: 42px;
+            vertical-align: middle;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out; }
+            .page-portfolio .view-content .views-row .node--portfolio--teaser .article-text a.project-link:hover {
+              opacity: 1; }
+            .page-portfolio .view-content .views-row .node--portfolio--teaser .article-text a.project-link:before {
+              content: '';
+              display: inline-block;
+              height: 42px;
+              width: 42px;
+              background-image: url("../images/link_portfolio-deweb.png");
+              vertical-align: middle;
+              margin-right: 10px; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser .field--name-field-portfolio-tags {
+          opacity: 0.6;
+          position: absolute;
+          bottom: 30px;
+          width: 100%;
+          text-align: center; }
+          .page-portfolio .view-content .views-row .node--portfolio--teaser .field--name-field-portfolio-tags .field__item {
+            font-size: 16px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            display: inline-block;
+            line-height: 20px;
+            vertical-align: middle;
+            text-transform: uppercase; }
+            .page-portfolio .view-content .views-row .node--portfolio--teaser .field--name-field-portfolio-tags .field__item + .field__item:before {
+              content: '';
+              display: inline-block;
+              width: 10px;
+              height: 2px;
+              margin: 0 8px 2px;
+              vertical-align: middle;
+              background-color: #FFFFFF; }
+  @media only screen and (max-width: 800px) {
+    .page-portfolio .view-content .views-row .node--portfolio--teaser {
+      height: 300px;
+      width: 100% !important; }
+      .page-portfolio .view-content .views-row .node--portfolio--teaser .article-img {
+        display: none; }
+      .page-portfolio .view-content .views-row .node--portfolio--teaser .article-text {
+        padding-top: 40px; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser .article-text h2.node__title {
+          padding-bottom: 10px; }
+        .page-portfolio .view-content .views-row .node--portfolio--teaser .article-text .field--name-field-portfolio-description {
+          margin-bottom: 20px; }
+      .page-portfolio .view-content .views-row .node--portfolio--teaser.featured > .content {
+        width: 100%; } }
+  @media only screen and (max-width: 480px) {
+    .page-portfolio h1 {
+      font-size: 30px; }
+    .page-portfolio .view-content .views-row .node--portfolio--teaser .article-text h2.node__title {
+      font-size: 18px;
+      line-height: 24px; }
+    .page-portfolio .view-content .views-row .node--portfolio--teaser .article-text a.project-link {
+      font-size: 14px; }
+    .page-portfolio .view-content .views-row .node--portfolio--teaser .field--name-field-portfolio-description {
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 15px; }
+    .page-portfolio .view-content .views-row .node--portfolio--teaser .field--name-field-portfolio-tags {
+      bottom: 20px; }
+      .page-portfolio .view-content .views-row .node--portfolio--teaser .field--name-field-portfolio-tags .field__item {
+        font-size: 14px;
+        line-height: 16px; } }
+
+/*# sourceMappingURL=portfolio.css.map */
